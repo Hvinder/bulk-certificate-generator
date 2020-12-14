@@ -22,6 +22,6 @@ for name in names_array:
     draw.text((x, y), msg, fill=color, font=font)
 
     Path("./output").mkdir(parents=True, exist_ok=True)
-    filename = "output/bday_wish {0}.jpg".format(count)
+    filename = "output/certificate {0}.jpg".format(count)
     img.save(filename)
     count += 1
